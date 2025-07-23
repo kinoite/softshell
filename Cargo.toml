@@ -1,0 +1,8 @@
+[package]
+name = "sfsh"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mlua = { version = "0.11.1", features = ["lua54", "send", "serde"] }
+rustyline = "16.0.0"
