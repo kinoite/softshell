@@ -1,8 +1,19 @@
 [package]
-name = "sfsh"
-version = "0.1.0"
+name = "softshell"
+version = "0.0.1"
 edition = "2024"
+description = "Lua-configured shell that tries to be small and light but configurable as possible"
+repository = "https://github.com/kinoite/softshell"
+license = "Apache-2.0"
+keywords = ["shell", "lua", "cli", "command-line", "terminal", "softshell"]
+categories = ["command-line-utilities", "shells"]
+homepage = "https://sfsh.github.io"
+documentation = "https://github.com/kinoite/softshell/wiki"
 
 [dependencies]
 mlua = { version = "0.11.1", features = ["lua54", "send", "serde"] }
 rustyline = "16.0.0"
+
+[[bin]]
+name = "sfsh"
+path = "src/main.rs"
