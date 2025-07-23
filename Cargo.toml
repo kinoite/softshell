@@ -6,7 +6,7 @@ description = "Lua-configured shell that tries to be small and light but configu
 repository = "https://github.com/kinoite/softshell"
 license = "Apache-2.0"
 keywords = ["lua", "cli", "command-line", "softshell"]
-categories = ["command-line-utilities", "shells"]
+categories = ["command-line-utilities"]
 homepage = "https://sfsh.github.io"
 documentation = "https://github.com/kinoite/softshell/wiki"
 
