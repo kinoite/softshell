@@ -7,7 +7,7 @@ repository = "https://github.com/kinoite/softshell"
 license = "Apache-2.0"
 keywords = ["lua", "cli", "command-line", "softshell"]
 categories = ["command-line-utilities"]
-homepage = "https://sfsh.github.io"
+homepage = "https://kinoite.github.io/sfsh"
 documentation = "https://github.com/kinoite/softshell/wiki"
 
 [dependencies]
