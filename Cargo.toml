@@ -1,6 +1,6 @@
 [package]
 name = "softshell"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2024"
 description = "Lua-configured shell that tries to be small and light but configurable as possible"
 repository = "https://github.com/kinoite/softshell"
